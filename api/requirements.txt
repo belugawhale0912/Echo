@@ -1,0 +1,4 @@
+# Echo API - runtime Python dependencies (pinned versions).
+# FastAPI and pydantic for the HTTP layer, redis for storage and rate limiting,
+# and uvicorn as the ASGI server. Installed by api/Dockerfile.
+

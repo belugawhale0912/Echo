@@ -1,0 +1,6 @@
+# Echo - container stack for a single host.
+# Defines three services: redis (ephemeral ciphertext store, reachable only on
+# the internal network), api (the FastAPI backend, non-root and read-only) and
+# caddy (TLS termination, static UI host and /api reverse proxy). Values come
+# from .env - see .env.example.
+

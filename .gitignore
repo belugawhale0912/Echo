@@ -1,0 +1,4 @@
+# Echo - files that must never be committed.
+# Covers Python and Node build artefacts, virtualenvs, the real .env file and
+# the runtime volumes (data/, caddy_data/).
+

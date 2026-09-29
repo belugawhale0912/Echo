@@ -1,0 +1,5 @@
+# Echo - Caddy edge configuration.
+# Terminates TLS, sets the security headers every response needs, reverse
+# proxies /api/* to the api service and serves the static frontend from web/
+# (mounted at /srv/web). The site address comes from the SITE_ADDRESS variable.
+

@@ -1,0 +1,4 @@
+# Echo API - files excluded from the Docker build context.
+# Keeps the image small and prevents caches, virtualenvs, tests and local
+# secrets from being copied into the build.
+

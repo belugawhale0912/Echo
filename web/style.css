@@ -1,0 +1,5 @@
+/* Echo frontend - presentation.
+   Theme, layout and components for the create and reveal pages: form fields,
+   alert boxes, the one-time link row and the secret output panel. No external
+   fonts or assets, so the strict Content-Security-Policy stays valid. */
+

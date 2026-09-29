@@ -1,0 +1,8 @@
+<!--
+  Echo frontend - "reveal a secret" page.
+  Reads the secret id and key from the URL fragment, checks
+  GET /api/secrets/{id}/status without destroying anything, and only on an
+  explicit click fetches the ciphertext (which deletes it on the server) and
+  decrypts it locally with crypto.js.
+-->
+
